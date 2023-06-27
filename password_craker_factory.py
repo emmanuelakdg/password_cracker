@@ -1,5 +1,5 @@
 from BruteForceConnexion import BruteForceCracker
-from dictionnaire_cracker import DictionnaireCracker
+from DictionnaraireConnexion import DictionnaireCracker
 
 
 
