@@ -7,7 +7,7 @@ class PasswordCracker(ABC):
         pass
     
     def connexion(password):
-        url = 'http://localhost/design_pattern/password_cracker/login.php'
+        url = 'http://localhost/password_cracker/login.php'
 
         # Données de formulaire
         data = {

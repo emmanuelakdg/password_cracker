@@ -32,7 +32,7 @@
                       if (isset($_POST['login'], $_POST['password'] )) {
                         $login = $_POST['login'];
                         $password = $_POST['password'];
-                        if ($login === 'admin' && $password === 'daba') {
+                        if ($login === 'admin' && $password === 'pluie') {
                           echo 'Authentification reussie !';
                         } else {
                           echo 'Identifiants invalides. Veuillez réessayer.';

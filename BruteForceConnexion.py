@@ -15,7 +15,7 @@ class BruteForceCracker(PasswordCracker):
                 mot = ''.join(combinaison)
                 if BruteForceCracker.connexion(mot):
                     print("Connexion reussie avec succes")
-                    print(f"Le mot de passe etais: {mot}")
+                    print(f"Le mot de passe etait: {mot}")
                     return 0
                 else:
                     os.system('cls' if os.name == 'nt' else 'clear')
